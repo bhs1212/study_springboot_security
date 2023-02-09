@@ -7,7 +7,7 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 public class SecurityConfiguration {
-    @Bean
+    // @Bean
     public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception {
         // 권한에 대한 부분 : url & roles : user url & roles
         httpSecurity.authorizeRequests()
